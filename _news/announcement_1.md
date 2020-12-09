@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-06-03 06:00:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+Check out our <a href="https://arxiv.org/abs/2006.02334">DetectoRS</a>: 55.7% box AP, 48.5% mask AP, and 50.0% PQ on COCO.
