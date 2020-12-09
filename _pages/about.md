@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p style="text-align:center;"><a href="https://github.com/joe-siyuan-qiao">GitHub</a> &#183; <a href="https://scholar.google.com/citations?user=6Hfk-90AAAAJ">Google Scholar</a></p>
+    <p><a href="https://github.com/joe-siyuan-qiao">GitHub</a> &#183; <a href="https://scholar.google.com/citations?user=6Hfk-90AAAAJ">Google Scholar</a></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
