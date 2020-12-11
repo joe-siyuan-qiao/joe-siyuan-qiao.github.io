@@ -22,5 +22,5 @@ My research interest is computer vision with focuses on image recognition with l
 I've been really fortunate to have worked with great research scientists in YITU, Baidu IDL, Adobe, and Google. 
 
 _I'm on the job market now looking for a position in Artificial Intelligence industry.
-Please drop me an email if you are interesetd.
+Please drop me an email if you are interested.
 Here is my <a href="https://www.cs.jhu.edu/~syqiao/CV.pdf">CV</a>._
