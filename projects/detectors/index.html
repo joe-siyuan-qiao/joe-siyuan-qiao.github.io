@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Siyuan  Qiao | blank</title>
+<title>Siyuan  Qiao | DetectoRS</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/~syqiao/assets/img/favicon.ico">
 <link rel="stylesheet" href="/~syqiao/assets/css/main.css">
 
-<link rel="canonical" href="/~syqiao/blog/">
+<link rel="canonical" href="/~syqiao/projects/detectors/">
 
 <!-- Theming-->
 
@@ -122,56 +122,55 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">DetectoRS</h1>
+    <p class="post-description">Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution</p>
+  </header>
+
+  <article>
+    <p>Authors: <strong>Siyuan Qiao</strong>, Liang-Chieh Chen and Alan Yuille<br />
+Affiliations: Johns Hopkins University and Google Research<br />
+<a href="https://arxiv.org/pdf/2006.02334.pdf">[Paper]</a> <a href="https://github.com/joe-siyuan-qiao/DetectoRS">[GitHub]</a></p>
+
+<p><a href="https://paperswithcode.com/sota/instance-segmentation-on-coco?p=detectors-detecting-objects-with-recursive-1"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/detectors-detecting-objects-with-recursive-1/instance-segmentation-on-coco" alt="PWC" /></a><br />
+<a href="https://paperswithcode.com/sota/panoptic-segmentation-on-coco-test-dev?p=detectors-detecting-objects-with-recursive-1"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/detectors-detecting-objects-with-recursive-1/panoptic-segmentation-on-coco-test-dev" alt="PWC" /></a><br />
+<a href="https://paperswithcode.com/sota/object-detection-on-coco?p=detectors-detecting-objects-with-recursive-1"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/detectors-detecting-objects-with-recursive-1/object-detection-on-coco" alt="PWC" /></a></p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/~syqiao/assets/img/projects/detectors/cover.png" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+Figure 1. (a) Our Recursive Feature Pyramid adds feedback connections (solid lines) from the top-down FPN layers to the
+bottom-up backbone layers to look at the image twice or more. (b) Our Switchable Atrous Convolution looks twice at the
+input features with different atrous rates and the outputs are combined together by switches.
+</div>
+
+<h3 id="abstract">Abstract</h3>
+<p>Many modern object detectors demonstrate outstanding
+performances by using the mechanism of looking and thinking twice. In this paper, we explore this mechanism in the
+backbone design for object detection. At the macro level,
+we propose Recursive Feature Pyramid, which incorporates
+extra feedback connections from Feature Pyramid Networks
+into the bottom-up backbone layers. At the micro level, we
+propose Switchable Atrous Convolution, which convolves the
+features with different atrous rates and gathers the results using switch functions. Combining them results in DetectoRS,
+which significantly improves the performances of object detection. On COCO test-dev, DetectoRS achieves state-of-theart 55.7% box AP for object detection, 48.5% mask AP for
+instance segmentation, and 50.0% PQ for panoptic segmentation.</p>
+
+<h3 id="citation">Citation</h3>
+<pre><code class="language-BibTeX">@article{detectors,
+  title={DetectoRS: Detecting Objects with Recursive Feature
+         Pyramid and Switchable Atrous Convolution},
+  author={Qiao, Siyuan and Chen, Liang-Chieh and Yuille, Alan},
+  journal={arXiv preprint arXiv:2006.02334},
+  year={2020}
+}
+</code></pre>
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="~syqiao/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="~syqiao/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="~syqiao/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
-
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/~syqiao/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/~syqiao/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/~syqiao/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/~syqiao/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
+  </article>
 
 </div>
 

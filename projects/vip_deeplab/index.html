@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Siyuan  Qiao | blank</title>
+<title>Siyuan  Qiao | ViP-DeepLab</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/~syqiao/assets/img/favicon.ico">
 <link rel="stylesheet" href="/~syqiao/assets/css/main.css">
 
-<link rel="canonical" href="/~syqiao/blog/">
+<link rel="canonical" href="/~syqiao/projects/vip_deeplab/">
 
 <!-- Theming-->
 
@@ -122,56 +122,38 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">ViP-DeepLab</h1>
+    <p class="post-description">Learning Visual Perception with Depth-aware Video Panoptic Segmentation</p>
+  </header>
 
+  <article>
+    <p>Authors: <strong>Siyuan Qiao</strong>, Yukun Zhu, Hartwig Adam, Alan Yuille and Liang-Chieh Chen<br />
+Affiliations: Johns Hopkins University and Google Research<br />
+<a href="https://arxiv.org/pdf/2012.05258.pdf">[Paper]</a> <a href="https://github.com/joe-siyuan-qiao/ViP-DeepLab">[GitHub]</a> <a href="https://youtu.be/XR4HFiwwao0">[YouTube]</a></p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="~syqiao/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="~syqiao/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="~syqiao/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/~syqiao/assets/img/projects/vip_deeplab/ViP-DeepLab.gif" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+</div>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/~syqiao/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/~syqiao/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/~syqiao/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/~syqiao/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<h3 id="abstract">Abstract</h3>
+<p>In this paper, we present ViP-DeepLab, a unified model attempting to tackle the long-standing and challenging inverse projection problem in vision, which we model as restoring the point clouds from perspective image sequences while providing each point with instance-level semantic interpretations. Solving this problem requires the vision models to predict the spatial location, semantic class, and temporally consistent instance label for each 3D point. ViP-DeepLab approaches it by jointly performing monocular depth estimation and video panoptic segmentation. We name this joint task as Depth-aware Video Panoptic Segmentation, and propose a new evaluation metric along with two derived datasets for it, which will be made available to the public. On the individual sub-tasks, ViP-DeepLab also achieves state-of-the-art results, outperforming previous methods by 5.1% VPQ on Cityscapes-VPS, ranking 1st on the KITTI monocular depth estimation benchmark, and 1st on KITTI MOTS pedestrian.</p>
 
+<h3 id="citation">Citation</h3>
+<pre><code class="language-BibTeX">@article{vip_deeplab,
+  title={ViP-DeepLab: Learning Visual Perception with Depth-aware
+         Video Panoptic Segmentation},
+  author={Siyuan Qiao and Yukun Zhu and Hartwig Adam and Alan Yuille and Liang-Chieh Chen},
+  journal={arXiv preprint arXiv:2012.05258},
+  year={2020}
+}
+</code></pre>
 
+  </article>
 
 </div>
 
