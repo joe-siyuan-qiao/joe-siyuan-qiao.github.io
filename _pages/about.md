@@ -21,6 +21,4 @@ Before joining Johns Hopkins University, I obtained my B.Sc. degree in 2016 from
 My research interest is computer vision with focuses on image recognition with limited data, object detection, and instance segmentation.
 I've been really fortunate to have worked with great research scientists in YITU, Baidu IDL, Adobe, and Google. 
 
-_I'm on the job market now looking for a position in Artificial Intelligence industry.
-Please drop me an email if you are interested.
-Here is my <a href="https://www.cs.jhu.edu/~syqiao/CV.pdf">CV</a>._
+I'll join **<span style="color:#4885ed">G</span><span style="color:#db3236">o</span><span style="color:#f4c20d">o</span><span style="color:#4885ed">g</span><span style="color:#3cba54">l</span><span style="color:#db3236">e</span>** as a Research Scientist after graduation.
